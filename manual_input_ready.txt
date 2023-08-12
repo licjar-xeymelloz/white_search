@@ -29,9 +29,6 @@ www.learnsanskrit.org/*
 *.iom.int/*
 *.go.jp/*
 *.lg.jp/*
-www.city.*.jp/*
-www.town.*.jp/*
-www.vill.*.jp/*
 *.gov/*
 *.mil/*
 www.twitter.com/*
