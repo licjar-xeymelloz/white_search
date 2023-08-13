@@ -7,13 +7,17 @@
 
 > Japanese National
 *.u-tokyo.ac.jp/*
-*.kansai-u.ac.jp/*
+*.kyoto-u.ac.jp/*
+*.tohoku.ac.jp/*
+*.osaka-u.ac.jp/*
+*.nagoya-u.ac.jp/*
 
 > Japanese Private
 *.gakushuin.ac.jp/*
+*.kansai-u.ac.jp/*
 
 > Foreign
-www.learnsanskrit.org/*
+learnsanskrit.org/*
 
 >> Government Institutions
 
@@ -50,10 +54,13 @@ www.learnsanskrit.org/*
 *.mil/*
 
 >> Social Media and Corporations
-www.twitter.com/*
-www.reddit.com/*
-www.youtube.com/*
-www.github.com/*
+twitter.com/*
+reddit.com/*
+youtube.com/*
+github.com/*
+*.github.io/*
+*.stackexchange.com/*
+*.stackoverflow.com/*
 
 >> Individuals
 
@@ -61,10 +68,10 @@ www.github.com/*
 www.tohoho-web.com/*
 
 > military
-
+warhistory-quest.blog.jp/*
 
 > sci-fi
 www2a.biglobe.ne.jp/~mizuki/*
 
 > other
-www.uub.jp/*
+uub.jp/*
