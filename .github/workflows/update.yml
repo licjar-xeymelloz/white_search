@@ -32,24 +32,24 @@ jobs:
               echo "" >> "${file}"
             fi
           done
-      - name: Generate white_list_readable.txt
+      - name: Generate whitelist_readable.txt
         shell: bash
         run: |
-          rm -f white_list_readable.txt
+          rm -f whitelist_readable.txt
           for file in $(find src -type f -name "*.txt" -print); do
-            echo "[${file}]" >> white_list_readable.txt
-            cat "${file}"    >> white_list_readable.txt
-            echo ""          >> white_list_readable.txt
+            echo "[${file}]" >> whitelist_readable.txt
+            cat "${file}"    >> whitelist_readable.txt
+            echo ""          >> whitelist_readable.txt
           done
-      - name: Generate white_list_ready.txt
+      - name: Generate whitelist_ready.txt
         shell: bash
         run: |
-          rm -f white_list_ready.txt
-          cp white_list_readable.txt white_list_ready.txt
-          sed -i "/^$/d"   white_list_ready.txt
-          sed -i "/^#/d"   white_list_ready.txt
-          sed -i "/^\[/d"  white_list_ready.txt
-          sed -i "s|$|/*|" white_list_ready.txt
+          rm -f whitelist_ready.txt
+          cp whitelist_readable.txt whitelist_ready.txt
+          sed -i "/^$/d"   whitelist_ready.txt
+          sed -i "/^#/d"   whitelist_ready.txt
+          sed -i "/^\[/d"  whitelist_ready.txt
+          sed -i "s|$|/*|" whitelist_ready.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update whitelist
