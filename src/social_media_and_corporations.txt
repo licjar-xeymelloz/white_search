@@ -1,0 +1,7 @@
+twitter.com
+reddit.com
+youtube.com
+github.com
+*.github.io
+*.stackexchange.com
+*.stackoverflow.com
