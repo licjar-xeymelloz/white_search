@@ -36,7 +36,7 @@ jobs:
         shell: bash
         run: |
           rm -f whitelist_readable.txt
-          for file in $(find src -type f -name "*.txt" -print); do
+          for file in $(find src -type f -name "*.txt" -print | sort -h); do
             echo "[${file}]" >> whitelist_readable.txt
             cat "${file}"    >> whitelist_readable.txt
             echo ""          >> whitelist_readable.txt
