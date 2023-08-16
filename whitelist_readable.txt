@@ -1,43 +1,45 @@
 [src/academic_institutions.txt]
 # Japanese National
-*.u-tokyo.ac.jp
-*.kyoto-u.ac.jp
-*.tohoku.ac.jp
-*.osaka-u.ac.jp
-*.nagoya-u.ac.jp
-*.jaxa.jp
+u-tokyo.ac.jp
+kyoto-u.ac.jp
+tohoku.ac.jp
+osaka-u.ac.jp
+nagoya-u.ac.jp
+jaxa.jp
 
 # Japanese Private
-*.gakushuin.ac.jp
-*.kansai-u.ac.jp
+gakushuin.ac.jp
+kansai-u.ac.jp
 
 # Foreign
 learnsanskrit.org
+arxiv.org
+oed.com
 
 [src/government_institutions.txt]
 # United Nations and its partners
-*.un.org
-*.fao.org
-*.icao.int
-*.ifad.org
-*.ilo.org
-*.imo.org
-*.itu.int
-*.unesco.org
-*.unido.org
-*.upu.int
-*.worldbank.org
-*.miga.org
-*.ifc.org
-*.who.int
-*.wipo.int
-*.wmo.int
-*.unwto.org
-*.iaea.org
-*.wto.org
-*.ctbto.org
-*.opcw.org
-*.iom.int
+un.org
+fao.org
+icao.int
+ifad.org
+ilo.org
+imo.org
+itu.int
+unesco.org
+unido.org
+upu.int
+worldbank.org
+miga.org
+ifc.org
+who.int
+wipo.int
+wmo.int
+unwto.org
+iaea.org
+wto.org
+ctbto.org
+opcw.org
+iom.int
 
 # Japan
 *.go.jp
@@ -57,20 +59,69 @@ warhistory-quest.blog.jp
 # sci-fi
 www2a.biglobe.ne.jp/~mizuki
 
+# math
+manabitimes.jp
+
 # other
 uub.jp
 
 [src/internet_anarchists.txt]
-*.wikipedia.org
-*.archive.org
-*.mozilla.org
+# General
+mozilla.org
+
+## Archive
+archive.org
+
+## Wikimedia
+wikimedia.org
+wikipedia.org
+wiktionary.org
+wikiquote.org
+wikibooks.org
+wikisource.org
+wikinews.org
+wikiversity.org
+mediawiki.org
+wikidata.org
+wikivoyage.org
+
+# Linux
+archlinux.org
+archlinux.jp
+gentoo.org
+endeavouros.com
+
+# LaTeX
+ctan.org
+texwiki.texjp.org
 
 [src/social_media_and_corporations.txt]
+# Social media
 twitter.com
-reddit.com
 youtube.com
+
+# Blog
+scrapbox.io
+zenn.dev
+mathlog.info
+hatenablog.com
+
+# Software development
 github.com
-*.github.io
-*.stackexchange.com
-*.stackoverflow.com
+github.io
+codeberg.org
+gitlab.com
+
+# Forums
+reddit.com
+unix.com
+linuxquestions.org
+
+## Stack Exchange
+stackexchange.com
+stackoverflow.com
+serverfault.com
+askubuntu.com
+superuser.com
+mathoverflow.net
 
