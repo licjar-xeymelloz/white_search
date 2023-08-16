@@ -1,28 +1,12 @@
->> Internet Anarchists 
-*.wikipedia.org/*
-*.archive.org/*
-*.mozilla.org/*
-
->> Academic Institutions
-
-> Japanese National
 *.u-tokyo.ac.jp/*
 *.kyoto-u.ac.jp/*
 *.tohoku.ac.jp/*
 *.osaka-u.ac.jp/*
 *.nagoya-u.ac.jp/*
 *.jaxa.jp/*
-
-> Japanese Private
 *.gakushuin.ac.jp/*
 *.kansai-u.ac.jp/*
-
-> Foreign
 learnsanskrit.org/*
-
->> Government Institutions
-
-> United Nations and its partners
 *.un.org/*
 *.fao.org/*
 *.icao.int/*
@@ -45,16 +29,17 @@ learnsanskrit.org/*
 *.ctbto.org/*
 *.opcw.org/*
 *.iom.int/*
-
-> Japan
 *.go.jp/*
 *.lg.jp/*
-
-> United States of America
 *.gov/*
 *.mil/*
-
->> Social Media and Corporations
+www.tohoho-web.com/*
+warhistory-quest.blog.jp/*
+www2a.biglobe.ne.jp/~mizuki/*
+uub.jp/*
+*.wikipedia.org/*
+*.archive.org/*
+*.mozilla.org/*
 twitter.com/*
 reddit.com/*
 youtube.com/*
@@ -62,17 +47,3 @@ github.com/*
 *.github.io/*
 *.stackexchange.com/*
 *.stackoverflow.com/*
-
->> Individuals
-
-> pasokata
-www.tohoho-web.com/*
-
-> military
-warhistory-quest.blog.jp/*
-
-> sci-fi
-www2a.biglobe.ne.jp/~mizuki/*
-
-> other
-uub.jp/*
