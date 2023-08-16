@@ -11,4 +11,6 @@
 *.kansai-u.ac.jp
 
 # Foreign
-learnsanskrit.org
+*.learnsanskrit.org
+arxiv.org
+www.oed.com

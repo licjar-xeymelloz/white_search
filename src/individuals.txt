@@ -7,5 +7,8 @@ warhistory-quest.blog.jp
 # sci-fi
 www2a.biglobe.ne.jp/~mizuki
 
+# math
+manabitimes.jp
+
 # other
 uub.jp

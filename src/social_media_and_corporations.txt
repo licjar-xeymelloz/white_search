@@ -1,7 +1,28 @@
+# Social media
 twitter.com
-reddit.com
 youtube.com
+
+# Blog
+scrapbox.io
+zenn.dev
+mathlog.info
+*.hatenablog.com
+
+# Software development
 github.com
 *.github.io
+codeberg.org
+gitlab.com
+
+# Forums
+reddit.com
+www.unix.com
+www.linuxquestions.org
+
+## Stack Exchange
 *.stackexchange.com
 *.stackoverflow.com
+serverfault.com
+askubuntu.com
+superuser.com
+mathoverflow.net
