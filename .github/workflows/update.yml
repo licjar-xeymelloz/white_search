@@ -20,15 +20,11 @@ jobs:
         run: |
           for file in $(find src -type f -print); do
             if [[ "${file##*.}" != "txt" ]]; then
-              tput setaf 3
               >&2 echo "[warning] The extension of ${file} is not txt."
               >&2 echo "          This file will be ignored."
-              tput setaf 7
             elif [[ $(tail -c1 "${file}" | wc -l) -eq 0 ]]; then
-              tput setaf 3
               >&2 echo "[warning] ${file} doesn't end with a linebreak."
               >&2 echo "          This will be fixed automatically."
-              tput setaf 7
               echo "" >> "${file}"
             fi
           done
@@ -46,11 +42,11 @@ jobs:
         run: |
           rm -f whitelist_ready.txt
           cp whitelist_readable.txt whitelist_ready.txt
-          sed -i "/^$/d"       whitelist_ready.txt
-          sed -i "/^#/d"       whitelist_ready.txt
-          sed -i "/^\[/d"      whitelist_ready.txt
-          sed -i "s/^[^*]/*./" whitelist_ready.txt
-          sed -i "s|$|/*|"     whitelist_ready.txt
+          sed -i "/^$/d"             whitelist_ready.txt
+          sed -i "/^#/d"             whitelist_ready.txt
+          sed -i "/^\[/d"            whitelist_ready.txt
+          sed -e "s/^\([^*]\)/*.\1/" whitelist_ready.txt
+          sed -i "s|$|/*|"           whitelist_ready.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update whitelist
