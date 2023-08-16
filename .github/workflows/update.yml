@@ -1,0 +1,55 @@
+name: Update whitelist
+
+on:
+  push:
+    paths: [".github/workflows/**", "src/**"]
+  pull_request:
+    paths: [".github/workflows/**", "src/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check source files
+        shell: bash
+        run: |
+          for file in $(find src -type f -print); do
+            if [[ "${file##*.}" != "txt" ]]; then
+              tput setaf 3
+                >&2 echo "[warning] The extension of ${file} is not txt."
+                >&2 echo "          This file will be ignored."
+              tput setaf 7
+            elif [[ $(tail -c1 "${file}" | wc -l) -eq 0 ]]; then
+              tput setaf 3
+              >&2 echo "[warning] ${file} doesn't end with a linebreak."
+              >&2 echo "          This will be fixed automatically."
+              tput setaf 7
+              echo "" >> "${file}"
+            fi
+          done
+      - name: Generate white_list_readable.txt
+        shell: bash
+        run: |
+          rm -f white_list_readable.txt
+          for file in $(find src -type f -name "*.txt" -print); do
+            echo "[${file}]" >> white_list_readable.txt
+            cat "${file}"    >> white_list_readable.txt
+            echo ""          >> white_list_readable.txt
+          done
+      - name: Generate white_list_ready.txt
+        shell: bash
+        run: |
+          rm -f white_list_ready.txt
+          cp white_list_readable.txt white_list_ready.txt
+          sed -i "/^$/d"    white_list_ready.txt
+          sed -i "/^#/d"    white_list_ready.txt
+          sed -i "/^\[/d"   white_list_ready.txt
+          sed -i "s|$|/*|"  white_list_ready.txt
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update whitelist
