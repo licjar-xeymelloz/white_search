@@ -1,16 +1,3 @@
-[src/individuals.txt]
-# pasokata
-www.tohoho-web.com
-
-# military
-warhistory-quest.blog.jp
-
-# sci-fi
-www2a.biglobe.ne.jp/~mizuki
-
-# other
-uub.jp
-
 [src/academic_institutions.txt]
 # Japanese National
 *.u-tokyo.ac.jp
@@ -26,20 +13,6 @@ uub.jp
 
 # Foreign
 learnsanskrit.org
-
-[src/social_media_and_corporations.txt]
-twitter.com
-reddit.com
-youtube.com
-github.com
-*.github.io
-*.stackexchange.com
-*.stackoverflow.com
-
-[src/internet_anarchists.txt]
-*.wikipedia.org
-*.archive.org
-*.mozilla.org
 
 [src/government_institutions.txt]
 # United Nations and its partners
@@ -73,4 +46,31 @@ github.com
 # United States of America
 *.gov
 *.mil
+
+[src/individuals.txt]
+# pasokata
+www.tohoho-web.com
+
+# military
+warhistory-quest.blog.jp
+
+# sci-fi
+www2a.biglobe.ne.jp/~mizuki
+
+# other
+uub.jp
+
+[src/internet_anarchists.txt]
+*.wikipedia.org
+*.archive.org
+*.mozilla.org
+
+[src/social_media_and_corporations.txt]
+twitter.com
+reddit.com
+youtube.com
+github.com
+*.github.io
+*.stackexchange.com
+*.stackoverflow.com
 
