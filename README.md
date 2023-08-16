@@ -2,7 +2,7 @@
 
 ## 説明
 
-src ディレクトリ内のリストから生成された [whitelist_ready.txt](/whitelist_ready.txt) を Google カスタムサーチの GUI にコピペして使用します。
+[src ディレクトリ](/src)内のリストから生成された [whitelist_ready.txt](/whitelist_ready.txt) を Google カスタムサーチの GUI にコピペして使用します。
 
 得られた Google カスタムサーチは次の URL で公開しています：
 https://cse.google.com/cse?cx=35fc1913a6666419b
