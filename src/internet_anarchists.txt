@@ -1,27 +1,27 @@
 # General
-*.mozilla.org
+mozilla.org
 
 ## Archive
-*.archive.org
+archive.org
 
 ## Wikimedia
-*.wikimedia.org
-*.wikipedia.org
-*.wiktionary.org
-*.wikiquote.org
-*.wikibooks.org
-*.wikisource.org
-*.wikinews.org
-*.wikiversity.org
-*.mediawiki.org
-*.wikidata.org
-*.wikivoyage.org
+wikimedia.org
+wikipedia.org
+wiktionary.org
+wikiquote.org
+wikibooks.org
+wikisource.org
+wikinews.org
+wikiversity.org
+mediawiki.org
+wikidata.org
+wikivoyage.org
 
 # Linux
-*.archlinux.org
-*.archlinux.jp
-*.gentoo.org
-*.endeavouros.com
+archlinux.org
+archlinux.jp
+gentoo.org
+endeavouros.com
 
 # LaTeX
 ctan.org

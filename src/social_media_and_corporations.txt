@@ -6,22 +6,22 @@ youtube.com
 scrapbox.io
 zenn.dev
 mathlog.info
-*.hatenablog.com
+hatenablog.com
 
 # Software development
 github.com
-*.github.io
+github.io
 codeberg.org
 gitlab.com
 
 # Forums
 reddit.com
-www.unix.com
-www.linuxquestions.org
+unix.com
+linuxquestions.org
 
 ## Stack Exchange
-*.stackexchange.com
-*.stackoverflow.com
+stackexchange.com
+stackoverflow.com
 serverfault.com
 askubuntu.com
 superuser.com
