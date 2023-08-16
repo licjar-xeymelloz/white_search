@@ -21,8 +21,8 @@ jobs:
           for file in $(find src -type f -print); do
             if [[ "${file##*.}" != "txt" ]]; then
               tput setaf 3
-                >&2 echo "[warning] The extension of ${file} is not txt."
-                >&2 echo "          This file will be ignored."
+              >&2 echo "[warning] The extension of ${file} is not txt."
+              >&2 echo "          This file will be ignored."
               tput setaf 7
             elif [[ $(tail -c1 "${file}" | wc -l) -eq 0 ]]; then
               tput setaf 3
