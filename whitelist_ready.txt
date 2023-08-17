@@ -78,7 +78,7 @@
 *.elixir-lang.org/*
 *.nim-lang.org/*
 *.ocaml.org/*
-*.learn.microsoft.com/en-us/dotnet/csharp/*
+*.learn.microsoft.com/en-us/dotnet/*
 *.learn.microsoft.com/en-us/powershell/*
 *.twitter.com/*
 *.youtube.com/*
