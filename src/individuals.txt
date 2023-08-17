@@ -1,5 +1,5 @@
 # pasokata
-www.tohoho-web.com
+tohoho-web.com
 ufcpp.net
 
 # military
