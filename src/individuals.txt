@@ -1,5 +1,6 @@
 # pasokata
 www.tohoho-web.com
+ufcpp.net
 
 # military
 warhistory-quest.blog.jp
@@ -9,6 +10,7 @@ www2a.biglobe.ne.jp/~mizuki
 
 # math
 manabitimes.jp
+alg-d.com/math
 
 # other
 uub.jp
