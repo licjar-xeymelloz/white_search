@@ -1,4 +1,4 @@
-[src/academic_institutions.txt]
+[academic_institutions]
 # Japanese National
 u-tokyo.ac.jp
 kyoto-u.ac.jp
@@ -16,7 +16,7 @@ learnsanskrit.org
 arxiv.org
 oed.com
 
-[src/government_institutions.txt]
+[government_institutions]
 # United Nations and its partners
 un.org
 fao.org
@@ -49,7 +49,7 @@ iom.int
 *.gov
 *.mil
 
-[src/individuals.txt]
+[individuals]
 # pasokata
 www.tohoho-web.com
 
@@ -65,7 +65,7 @@ manabitimes.jp
 # other
 uub.jp
 
-[src/internet_anarchists.txt]
+[internet_anarchists]
 # General
 mozilla.org
 
@@ -95,7 +95,7 @@ endeavouros.com
 ctan.org
 texwiki.texjp.org
 
-[src/social_media_and_corporations.txt]
+[social_media_and_corporations]
 # Social media
 twitter.com
 youtube.com
