@@ -37,7 +37,7 @@
 *.lg.jp/*
 *.gov/*
 *.mil/*
-*.www.tohoho-web.com/*
+*.tohoho-web.com/*
 *.ufcpp.net/*
 *.warhistory-quest.blog.jp/*
 *.www2a.biglobe.ne.jp/~mizuki/*
@@ -99,3 +99,4 @@
 *.askubuntu.com/*
 *.superuser.com/*
 *.mathoverflow.net/*
+
