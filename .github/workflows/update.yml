@@ -42,11 +42,11 @@ jobs:
         run: |
           rm -f whitelist_ready.txt
           cp whitelist_readable.txt whitelist_ready.txt
-          sed -i "/^$/d"             whitelist_ready.txt
-          sed -i "/^#/d"             whitelist_ready.txt
-          sed -i "/^\[/d"            whitelist_ready.txt
-          sed -e "s/^\([^*]\)/*.\1/" whitelist_ready.txt
-          sed -i "s|$|/*|"           whitelist_ready.txt
+          sed -i "/^$/d"                whitelist_ready.txt
+          sed -i "/^#/d"                whitelist_ready.txt
+          sed -i "/^\[/d"               whitelist_ready.txt
+          sed -i -e "s/^\([^*]\)/*.\1/" whitelist_ready.txt
+          sed -i "s|$|/*|"              whitelist_ready.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update whitelist
