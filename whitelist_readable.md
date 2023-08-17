@@ -56,6 +56,15 @@
 - ufcpp.net
 
 ## military
+- cmano-db.com
+- scramble.nl
+- globalsecurity.org
+- globalmil.com
+- uscarriers.net
+- battleorder.org
+- torakyojin88.web.fc2.com
+- torakyojin88z.web.fc2.com
+- secretprojects.co.uk
 - warhistory-quest.blog.jp
 - learningmilitaryscience.com
 
