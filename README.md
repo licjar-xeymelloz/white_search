@@ -4,6 +4,8 @@
 
 [src ディレクトリ](/src)内のリストから生成された [whitelist.txt](/whitelist.txt) を Google カスタムサーチの GUI にコピペして使用します。
 
+[whitelist_readable.md](/whitelist_readable.md) および [whitelist.txt](/whitelist.txt) は自動生成されるため、編集しないでください。
+
 得られた Google カスタムサーチは次の URL で公開しています：
 https://cse.google.com/cse?cx=35fc1913a6666419b
 
