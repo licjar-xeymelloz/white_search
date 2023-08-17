@@ -3,9 +3,11 @@
 *.tohoku.ac.jp/*
 *.osaka-u.ac.jp/*
 *.nagoya-u.ac.jp/*
+*.tsukuba.ac.jp/*
 *.jaxa.jp/*
 *.gakushuin.ac.jp/*
 *.kansai-u.ac.jp/*
+*.kanazawa-it.ac.jp/*
 *.learnsanskrit.org/*
 *.arxiv.org/*
 *.oed.com/*
