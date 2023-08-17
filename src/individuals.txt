@@ -1,11 +1,16 @@
 # pasokata
-www.tohoho-web.com
+tohoho-web.com
+ufcpp.net
 
 # military
 warhistory-quest.blog.jp
 
 # sci-fi
 www2a.biglobe.ne.jp/~mizuki
+
+# math
+manabitimes.jp
+alg-d.com/math
 
 # other
 uub.jp

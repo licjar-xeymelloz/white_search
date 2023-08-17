@@ -1,0 +1,16 @@
+cppreference.com
+rust-lang.org
+haskell.org
+go.dev
+python.org
+pypy.org
+cython.org
+kotlinlang.org
+docs.oracle.com
+openjdk.org
+lua.org
+elixir-lang.org
+nim-lang.org
+ocaml.org
+learn.microsoft.com/en-us/dotnet
+learn.microsoft.com/en-us/powershell

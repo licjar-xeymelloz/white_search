@@ -20,36 +20,45 @@ jobs:
         run: |
           for file in $(find src -type f -print); do
             if [[ "${file##*.}" != "txt" ]]; then
-              tput setaf 3
               >&2 echo "[warning] The extension of ${file} is not txt."
               >&2 echo "          This file will be ignored."
-              tput setaf 7
             elif [[ $(tail -c1 "${file}" | wc -l) -eq 0 ]]; then
-              tput setaf 3
               >&2 echo "[warning] ${file} doesn't end with a linebreak."
               >&2 echo "          This will be fixed automatically."
-              tput setaf 7
               echo "" >> "${file}"
             fi
           done
-      - name: Generate whitelist_readable.txt
+      - name: Generate whitelist_readable.md
         shell: bash
         run: |
-          rm -f whitelist_readable.txt
+          rm -f whitelist_readable.md
           for file in $(find src -type f -name "*.txt" -print | sort -h); do
-            echo "[${file}]" >> whitelist_readable.txt
-            cat "${file}"    >> whitelist_readable.txt
-            echo ""          >> whitelist_readable.txt
+            echo "# ${file:4:-4}" >> whitelist_readable.md
+            cat "${file}" | while read line; do
+              if [[ "${line// }" == "" ]]; then
+                echo "" >> whitelist_readable.md
+              elif [[ "${line:0:1}" == "#" ]]; then
+                echo "#${line}" >> whitelist_readable.md
+              else
+                echo "- ${line}" >> whitelist_readable.md
+              fi
+            done
+            echo "" >> whitelist_readable.md
           done
-      - name: Generate whitelist_ready.txt
+      - name: Generate whitelist.txt
         shell: bash
         run: |
-          rm -f whitelist_ready.txt
-          cp whitelist_readable.txt whitelist_ready.txt
-          sed -i "/^$/d"   whitelist_ready.txt
-          sed -i "/^#/d"   whitelist_ready.txt
-          sed -i "/^\[/d"  whitelist_ready.txt
-          sed -i "s|$|/*|" whitelist_ready.txt
+          rm -f whitelist.txt
+          for file in $(find src -type f -name "*.txt" -print | sort -h); do
+            cat "${file}" | while read line; do
+              if [[ "${line// }" == "" ]]; then
+                continue
+              elif [[ "${line:0:1}" != "#" ]]; then
+                echo "*.$(sed "s/^*.//" <<< "${line}")/*" >> whitelist.txt
+              fi
+            done
+          done
+          echo "" >> whitelist.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update whitelist
