@@ -8,6 +8,8 @@
 - kek.jp
 
 ### Foreign
+- edu
+- ac.uk
 - arxiv.org
 - oed.com
 

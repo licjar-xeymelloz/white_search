@@ -2,6 +2,8 @@
 *.jaxa.jp/*
 *.riken.jp/*
 *.kek.jp/*
+*.edu/*
+*.ac.uk/*
 *.arxiv.org/*
 *.oed.com/*
 *.asonosakan.blogspot.com/*
