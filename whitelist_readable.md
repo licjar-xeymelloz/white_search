@@ -1,22 +1,19 @@
-# academic_institutions
-## Japanese National
-- u-tokyo.ac.jp
-- kyoto-u.ac.jp
-- tohoku.ac.jp
-- osaka-u.ac.jp
-- nagoya-u.ac.jp
-- tsukuba.ac.jp
+# academia
+## Institutions
+
+### Japanese
+- ac.jp
 - jaxa.jp
+- riken.jp
+- kek.jp
 
-## Japanese Private
-- gakushuin.ac.jp
-- kansai-u.ac.jp
-- kanazawa-it.ac.jp
-
-## Foreign
-- learnsanskrit.org
+### Foreign
 - arxiv.org
 - oed.com
+
+## Individuals
+- asonosakan.blogspot.com
+- learnsanskrit.org
 
 # government_institutions
 ## United Nations and its partners
@@ -58,13 +55,17 @@
 
 ## military
 - warhistory-quest.blog.jp
+- learningmilitaryscience.com
 
 ## sci-fi
+- projectrho.com
+- toughsf.blogspot.com
 - www2a.biglobe.ne.jp/~mizuki
 
 ## math
 - manabitimes.jp
 - alg-d.com/math
+- mathrelish.com
 
 ## other
 - uub.jp
@@ -127,11 +128,13 @@
 - scrapbox.io
 - zenn.dev
 - mathlog.info
+- github.io
+- qiita.com
+- substack.com
 - hatenablog.com
 
 ## Software development
 - github.com
-- github.io
 - codeberg.org
 - gitlab.com
 
