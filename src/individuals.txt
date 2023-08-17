@@ -4,13 +4,17 @@ ufcpp.net
 
 # military
 warhistory-quest.blog.jp
+learningmilitaryscience.com
 
 # sci-fi
+projectrho.com
+toughsf.blogspot.com
 www2a.biglobe.ne.jp/~mizuki
 
 # math
 manabitimes.jp
 alg-d.com/math
+mathrelish.com
 
 # other
 uub.jp

@@ -1,0 +1,15 @@
+# Institutions
+
+## Japanese
+ac.jp
+jaxa.jp
+riken.jp
+kek.jp
+
+## Foreign
+arxiv.org
+oed.com
+
+# Individuals
+asonosakan.blogspot.com
+learnsanskrit.org

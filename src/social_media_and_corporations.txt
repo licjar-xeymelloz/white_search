@@ -6,11 +6,13 @@ youtube.com
 scrapbox.io
 zenn.dev
 mathlog.info
+github.io
+qiita.com
+substack.com
 hatenablog.com
 
 # Software development
 github.com
-github.io
 codeberg.org
 gitlab.com
 
