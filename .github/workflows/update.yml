@@ -45,20 +45,20 @@ jobs:
             done
             echo "" >> whitelist_readable.md
           done
-      - name: Generate whitelist_ready.txt
+      - name: Generate whitelist.txt
         shell: bash
         run: |
-          rm -f whitelist_ready.txt
+          rm -f whitelist.txt
           for file in $(find src -type f -name "*.txt" -print | sort -h); do
             cat "${file}" | while read line; do
               if [[ "${line// }" == "" ]]; then
                 continue
               elif [[ "${line:0:1}" != "#" ]]; then
-                echo "*.$(sed "s/^*.//" <<< "${line}")/*" >> whitelist_ready.txt
+                echo "*.$(sed "s/^*.//" <<< "${line}")/*" >> whitelist.txt
               fi
             done
           done
-          echo "" >> whitelist_ready.txt
+          echo "" >> whitelist.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update whitelist
