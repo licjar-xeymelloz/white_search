@@ -86,6 +86,7 @@ wikidata.org
 wikivoyage.org
 
 # Linux
+gnu.org
 archlinux.org
 archlinux.jp
 gentoo.org
@@ -94,6 +95,24 @@ endeavouros.com
 # LaTeX
 ctan.org
 texwiki.texjp.org
+
+[programming_language_references]
+cppreference.com
+rust-lang.org
+haskell.org
+go.dev
+python.org
+pypy.org
+cython.org
+kotlinlang.org
+docs.oracle.com
+openjdk.org
+lua.org
+elixir-lang.org
+nim-lang.org
+ocaml.org
+learn.microsoft.com/en-us/dotnet/csharp
+learn.microsoft.com/en-us/powershell
 
 [social_media_and_corporations]
 # Social media
