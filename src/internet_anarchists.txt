@@ -18,6 +18,7 @@ wikidata.org
 wikivoyage.org
 
 # Linux
+gnu.org
 archlinux.org
 archlinux.jp
 gentoo.org
