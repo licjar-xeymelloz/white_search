@@ -36,9 +36,11 @@
 *.gov/*
 *.mil/*
 *.www.tohoho-web.com/*
+*.ufcpp.net/*
 *.warhistory-quest.blog.jp/*
 *.www2a.biglobe.ne.jp/~mizuki/*
 *.manabitimes.jp/*
+*.alg-d.com/math/*
 *.uub.jp/*
 *.mozilla.org/*
 *.archive.org/*
