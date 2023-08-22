@@ -1,4 +1,4 @@
-# academia
+# Academia
 ## Institutions
 
 ### Japanese
@@ -17,7 +17,7 @@
 - asonosakan.blogspot.com
 - learnsanskrit.org
 
-# government_institutions
+# Government Institutions
 ## United Nations and its partners
 - un.org
 - fao.org
@@ -50,7 +50,7 @@
 - *.gov
 - *.mil
 
-# individuals
+# Individuals
 ## pasokata
 - tohoho-web.com
 - ufcpp.net
@@ -81,7 +81,7 @@
 ## other
 - uub.jp
 
-# internet_anarchists
+# Internet Anarchists
 ## General
 - mozilla.org
 
@@ -112,7 +112,7 @@
 - ctan.org
 - texwiki.texjp.org
 
-# programming_language_references
+# Programming Language References
 - cppreference.com
 - rust-lang.org
 - haskell.org
@@ -130,7 +130,7 @@
 - learn.microsoft.com/en-us/dotnet
 - learn.microsoft.com/en-us/powershell
 
-# social_media_and_corporations
+# Social Media and Corporations
 ## Social media
 - twitter.com
 - youtube.com
