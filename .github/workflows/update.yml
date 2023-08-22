@@ -33,7 +33,11 @@ jobs:
         run: |
           rm -f whitelist_readable.md
           for file in $(find src -type f -name "*.txt" -print | sort -h); do
-            echo "# ${file:4:-4}" >> whitelist_readable.md
+            heading=$(sed "s/_/ /g; s/\<./\U&/g" <<< "${file:4:-4}")
+            for w in "a" "an" "the" "and" "or" "of" "for" "with"; do
+              heading=$(sed "s/ ${w^} / ${w} /g" <<< "${heading}")
+            done
+            echo "# ${heading}" >> whitelist_readable.md
             cat "${file}" | while read line; do
               if [[ "${line// }" == "" ]]; then
                 echo "" >> whitelist_readable.md
