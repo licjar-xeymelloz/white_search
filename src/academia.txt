@@ -1,14 +1,14 @@
 # Institutions
 
 ## Japanese
-ac.jp
+*.ac.jp
 jaxa.jp
 riken.jp
 kek.jp
 
 ## Foreign
-edu
-ac.uk
+*.edu
+*.ac.uk
 arxiv.org
 oed.com
 
