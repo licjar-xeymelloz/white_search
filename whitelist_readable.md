@@ -143,6 +143,7 @@
 - qiita.com
 - substack.com
 - hatenablog.com
+- blogspot.com
 
 ## Software development
 - github.com

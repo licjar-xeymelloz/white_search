@@ -99,6 +99,7 @@
 *.qiita.com/*
 *.substack.com/*
 *.hatenablog.com/*
+*.blogspot.com/*
 *.github.com/*
 *.codeberg.org/*
 *.gitlab.com/*
