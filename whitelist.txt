@@ -13,9 +13,11 @@
 *.sciencedirect.com/*
 *.pnas.org/*
 *.springer.com/*
+*.scipost.org/*
 *.aps.org/*
 *.iop.org/*
-*.quantum-journal.com/*
+*.aip.org/*
+*.quantum-journal.org/*
 *.un.org/*
 *.fao.org/*
 *.icao.int/*

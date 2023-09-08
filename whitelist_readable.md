@@ -25,11 +25,13 @@
 - sciencedirect.com
 - pnas.org
 - springer.com
+- scipost.org
 
 #### Physics
 - aps.org
 - iop.org
-- quantum-journal.com
+- aip.org
+- quantum-journal.org
 
 # Government Institutions
 ## United Nations and its partners
