@@ -30,4 +30,4 @@ scipost.org
 aps.org
 iop.org
 aip.org
-quantum-journal.com
+quantum-journal.org
