@@ -10,6 +10,7 @@
 *.askubuntu.com/*
 *.asonosakan.blogspot.com/*
 *.battleorder.org/*
+*.blogspot.com/*
 *.cmano-db.com/*
 *.codeberg.org/*
 *.cppreference.com/*
