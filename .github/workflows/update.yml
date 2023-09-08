@@ -34,7 +34,7 @@ jobs:
           rm -f whitelist_readable.md
           first=true
           for file in $(find src -type f -name "*.txt" -print | sort -h); do
-            if [ "$first" = true ]; then
+            if [[ "$first" == "true" ]]; then
               first=false
             else
               echo "" >> whitelist_readable.md
@@ -58,7 +58,7 @@ jobs:
         shell: bash
         run: |
           rm -f whitelist.txt
-          for file in $(find src -type f -name "*.txt" -print | sort -h); do
+          for file in $(find src -type f -name "*.txt" -print); do
             cat "${file}" | while read line; do
               if [[ "${line// }" == "" ]]; then
                 continue
@@ -67,6 +67,7 @@ jobs:
               fi
             done
           done
+          sort --output whitelist.txt whitelist.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update whitelist
