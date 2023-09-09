@@ -29,3 +29,6 @@ serverfault.com
 askubuntu.com
 superuser.com
 mathoverflow.net
+
+# Dictionaries
+weblio.jp

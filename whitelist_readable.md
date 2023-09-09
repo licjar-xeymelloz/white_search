@@ -10,12 +10,28 @@
 ### Foreign
 - *.edu
 - *.ac.uk
-- arxiv.org
 - oed.com
 
 ## Individuals
 - asonosakan.blogspot.com
 - learnsanskrit.org
+
+## Articles
+
+### Natural Science
+- arxiv.org
+- nature.com
+- science.org
+- sciencedirect.com
+- pnas.org
+- springer.com
+- scipost.org
+
+#### Physics
+- aps.org
+- iop.org
+- aip.org
+- quantum-journal.org
 
 # Government Institutions
 ## United Nations and its partners
@@ -163,3 +179,5 @@
 - superuser.com
 - mathoverflow.net
 
+## Dictionaries
+- weblio.jp
