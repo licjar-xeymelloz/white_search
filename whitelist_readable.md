@@ -83,6 +83,7 @@
 - secretprojects.co.uk
 - warhistory-quest.blog.jp
 - learningmilitaryscience.com
+- seesaawiki.jp/w/namacha2
 
 ## sci-fi
 - projectrho.com
@@ -96,6 +97,7 @@
 
 ## other
 - uub.jp
+- honkawa2.sakura.ne.jp
 
 # Internet Anarchists
 ## General

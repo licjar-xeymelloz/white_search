@@ -34,6 +34,7 @@
 *.gov/*
 *.haskell.org/*
 *.hatenablog.com/*
+*.honkawa2.sakura.ne.jp/*
 *.iaea.org/*
 *.icao.int/*
 *.ifad.org/*
@@ -82,6 +83,7 @@
 *.scramble.nl/*
 *.scrapbox.io/*
 *.secretprojects.co.uk/*
+*.seesaawiki.jp/w/namacha2/*
 *.serverfault.com/*
 *.springer.com/*
 *.stackexchange.com/*
