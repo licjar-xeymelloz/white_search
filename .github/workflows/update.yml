@@ -32,8 +32,18 @@ jobs:
         shell: bash
         run: |
           rm -f whitelist_readable.md
+          first=true
           for file in $(find src -type f -name "*.txt" -print | sort -h); do
-            echo "# ${file:4:-4}" >> whitelist_readable.md
+            if [[ "$first" == "true" ]]; then
+              first=false
+            else
+              echo "" >> whitelist_readable.md
+            fi
+            heading=$(sed "s/_/ /g; s/\<./\U&/g" <<< "${file:4:-4}")
+            for w in "a" "an" "the" "and" "or" "of" "for" "with"; do
+              heading=$(sed "s/ ${w^} / ${w} /g" <<< "${heading}")
+            done
+            echo "# ${heading}" >> whitelist_readable.md
             cat "${file}" | while read line; do
               if [[ "${line// }" == "" ]]; then
                 echo "" >> whitelist_readable.md
@@ -43,13 +53,12 @@ jobs:
                 echo "- ${line}" >> whitelist_readable.md
               fi
             done
-            echo "" >> whitelist_readable.md
           done
       - name: Generate whitelist.txt
         shell: bash
         run: |
           rm -f whitelist.txt
-          for file in $(find src -type f -name "*.txt" -print | sort -h); do
+          for file in $(find src -type f -name "*.txt" -print); do
             cat "${file}" | while read line; do
               if [[ "${line// }" == "" ]]; then
                 continue
@@ -58,7 +67,7 @@ jobs:
               fi
             done
           done
-          echo "" >> whitelist.txt
+          sort --output whitelist.txt whitelist.txt
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update whitelist

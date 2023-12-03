@@ -10,6 +10,7 @@ github.io
 qiita.com
 substack.com
 hatenablog.com
+blogspot.com
 
 # Software development
 github.com
@@ -28,3 +29,6 @@ serverfault.com
 askubuntu.com
 superuser.com
 mathoverflow.net
+
+# Dictionaries
+weblio.jp
