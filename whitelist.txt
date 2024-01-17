@@ -34,8 +34,10 @@
 *.gov/*
 *.haskell.org/*
 *.hatenablog.com/*
+*.hazegray.org/*
 *.honkawa2.sakura.ne.jp/*
 *.iaea.org/*
+*.ibiblio.org/*
 *.icao.int/*
 *.ifad.org/*
 *.ifc.org/*
@@ -63,6 +65,7 @@
 *.mil/*
 *.mozilla.org/*
 *.nature.com/*
+*.navsource.org/*
 *.nim-lang.org/*
 *.ocaml.org/*
 *.oed.com/*
@@ -96,6 +99,7 @@
 *.torakyojin88z.web.fc2.com/*
 *.toughsf.blogspot.com/*
 *.twitter.com/*
+*.uboat.net/*
 *.ufcpp.net/*
 *.un.org/*
 *.unesco.org/*
@@ -104,6 +108,7 @@
 *.unwto.org/*
 *.upu.int/*
 *.uscarriers.net/*
+*.usni.org/*
 *.uub.jp/*
 *.warhistory-quest.blog.jp/*
 *.weblio.jp/*

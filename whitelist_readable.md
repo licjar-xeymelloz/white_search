@@ -11,6 +11,7 @@
 - *.edu
 - *.ac.uk
 - oed.com
+- ibiblio.org
 
 ## Individuals
 - asonosakan.blogspot.com
@@ -72,11 +73,14 @@
 - ufcpp.net
 
 ## military
+- usni.org
 - cmano-db.com
 - scramble.nl
 - globalsecurity.org
 - globalmil.com
 - uscarriers.net
+- navsource.org
+- hazegray.org
 - battleorder.org
 - torakyojin88.web.fc2.com
 - torakyojin88z.web.fc2.com
@@ -84,6 +88,7 @@
 - warhistory-quest.blog.jp
 - learningmilitaryscience.com
 - seesaawiki.jp/w/namacha2
+- uboat.net
 
 ## sci-fi
 - projectrho.com
