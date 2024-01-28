@@ -2,6 +2,7 @@
 *.ac.uk/*
 *.aip.org/*
 *.alg-d.com/math/*
+*.aozora.gr.jp/*
 *.aps.org/*
 *.archive.org/*
 *.archlinux.jp/*
@@ -11,9 +12,11 @@
 *.asonosakan.blogspot.com/*
 *.battleorder.org/*
 *.blogspot.com/*
+*.closed-worlds.com/*
 *.cmano-db.com/*
 *.codeberg.org/*
 *.cppreference.com/*
+*.cruel.org/*
 *.ctan.org/*
 *.ctbto.org/*
 *.cython.org/*
@@ -32,6 +35,7 @@
 *.go.dev/*
 *.go.jp/*
 *.gov/*
+*.gutenberg.org/*
 *.haskell.org/*
 *.hatenablog.com/*
 *.hazegray.org/*
@@ -54,6 +58,7 @@
 *.learningmilitaryscience.com/*
 *.learnsanskrit.org/*
 *.lg.jp/*
+*.libgen.is/*
 *.linuxquestions.org/*
 *.lua.org/*
 *.manabitimes.jp/*
@@ -79,7 +84,9 @@
 *.quantum-journal.org/*
 *.reddit.com/*
 *.riken.jp/*
+*.russianships.info/*
 *.rust-lang.org/*
+*.sci-hub.se/*
 *.science.org/*
 *.sciencedirect.com/*
 *.scipost.org/*

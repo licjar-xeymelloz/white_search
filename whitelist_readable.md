@@ -16,8 +16,9 @@
 ## Individuals
 - asonosakan.blogspot.com
 - learnsanskrit.org
+- cruel.org
 
-## Articles
+## Journals
 
 ### Natural Science
 - arxiv.org
@@ -89,11 +90,13 @@
 - learningmilitaryscience.com
 - seesaawiki.jp/w/namacha2
 - uboat.net
+- russianships.info
 
 ## sci-fi
 - projectrho.com
 - toughsf.blogspot.com
 - www2a.biglobe.ne.jp/~mizuki
+- closed-worlds.com
 
 ## math
 - manabitimes.jp
@@ -108,8 +111,12 @@
 ## General
 - mozilla.org
 
-### Archive
+### Archives and Libraries
 - archive.org
+- sci-hub.se
+- libgen.is
+- gutenberg.org
+- aozora.gr.jp
 
 ### Wikimedia
 - wikimedia.org
