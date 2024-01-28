@@ -1,8 +1,12 @@
 # General
 mozilla.org
 
-## Archive
+## Archives and Libraries
 archive.org
+sci-hub.se
+libgen.is
+gutenberg.org
+aozora.gr.jp
 
 ## Wikimedia
 wikimedia.org

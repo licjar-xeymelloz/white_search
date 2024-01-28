@@ -15,8 +15,9 @@ ibiblio.org
 # Individuals
 asonosakan.blogspot.com
 learnsanskrit.org
+cruel.org
 
-# Articles
+# Journals
 
 ## Natural Science
 arxiv.org
